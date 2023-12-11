@@ -9,7 +9,7 @@ def enterKeys():
             kb.press_and_release(o)
         kb.press_and_release("space")
     kb.press_and_release('enter')
-    sleep(randint(4,5))
+    sleep(randint(5,10))
     kb.press_and_release('ctrl+w')
     sleep(0.1)
     kb.press_and_release('ctrl+t')
